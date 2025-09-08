@@ -1,0 +1,33 @@
+# dependências node (front e back)
+node_modules/
+
+# builds do vite e do node
+dist/
+build/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+vite-error.log
+
+# IDE / sistema
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# variáveis de ambiente (backend e frontend)
+.env
+.env.local
+.env.*.local
+
+# prisma
+src-back/prisma/dev.db
+src-back/prisma/dev.db-journal
+
+# docker volumes
+docker-data/
