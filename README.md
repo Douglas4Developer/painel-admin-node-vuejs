@@ -121,16 +121,6 @@ JWT_EXPIRATION="60m"
 PORT=3333
 ```
 
----
-
-perfeito! vou te deixar trechos prontos pra colar no README cobrindo:
-
-1. por que os nomes estão em inglês
-2. passo-a-passo **correto** para subir o **backend com Docker + Prisma** (migrate + seed)
-3. comandos úteis e notas de `.env`
-
----
-
 # 📝 Convenções de Nomenclatura (por que inglês?)
 
 Adotei nomes em **inglês** (ex.: `User`, `Role`, `users`, `roles`) por três motivos:
